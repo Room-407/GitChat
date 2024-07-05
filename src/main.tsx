@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import { ChakraProvider } from "@chakra-ui/react";
 import { RouterProvider, createMemoryRouter } from "react-router-dom";
 import loadable from "@loadable/component";
+import "./main.css";
 
 const HomePage = loadable(() => import("./App.tsx"));
 const SignUpPage = loadable(() => import("./pages/signup.tsx"));
